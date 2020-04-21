@@ -12,7 +12,7 @@ export const QuestionComp = () =>
     <Question/>
 </div>
 
-// export const QuestionPage = () =>
+// export const QuestionPage111 = () =>
 // <div>
-//     <QuestionPage/>
+//     <QuestionPage1/>
 // </div>
