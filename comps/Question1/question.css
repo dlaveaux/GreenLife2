@@ -22,7 +22,7 @@
 .text{
     font-size: 13px;
 }
-#app{
+#whole{
     width: 360px;
     display: flex;
     flex-direction: column;
