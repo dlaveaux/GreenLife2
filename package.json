@@ -1,5 +1,8 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-actions": "^5.3.18",
@@ -11,5 +14,19 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
-  }
+  },
+  "name": "greenlife2",
+  "description": "Dynamic Content/Design Final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlaveaux/GreenLife2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlaveaux/GreenLife2/issues"
+  },
+  "homepage": "https://github.com/dlaveaux/GreenLife2#readme"
 }
