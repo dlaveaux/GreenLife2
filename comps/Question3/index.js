@@ -1,11 +1,11 @@
 import React from 'react';
 // import '../Question1/question1.css';
 
-const pic1 = require('./pic4.png')
-const pic2 = require('./pic5.png')
-const pic3 = require('./pic6.png')
+const pic1 = require('./pic7.png')
+const pic2 = require('./pic8.png')
+const pic3 = require('./pic9.png')
 
-const Question2 = ({question, text1, text2, text3}) =>
+const Question3 = ({question, text1, text2, text3}) =>
     <div id="whole">
         <div id="questiontext">{question}</div>
         <div id="picid">
@@ -24,12 +24,12 @@ const Question2 = ({question, text1, text2, text3}) =>
         </div>
     </div>;
 
-Question2.defaultProps = {
+Question3.defaultProps = {
     question: "What are you wearing today?",
     text1: "Recycled",
     text2: "Wool/Cotton",
     text3: "Polyester/Plastic"
 }
 
-export default Question2;
+export default Question3;
 
