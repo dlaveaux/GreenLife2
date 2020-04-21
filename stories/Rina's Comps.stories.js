@@ -1,5 +1,8 @@
 import React from 'react';
 import Question from '../comps/Question';
+import Header from '../comps/header';
+import Button from '../comps/button';
+import './qpages.css';
 // import QuestionPage from '../Pages/QuestionPage';
 
 export default {
@@ -12,7 +15,9 @@ export const QuestionComp = () =>
     <Question/>
 </div>
 
-// export const QuestionPage111 = () =>
-// <div>
-//     <QuestionPage1/>
-// </div>
+export const QuestionPages1 = () =>
+<div id="app">
+    <Header/>
+    <Question/>
+    <Button/>
+</div>
