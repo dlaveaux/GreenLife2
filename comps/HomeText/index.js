@@ -5,7 +5,7 @@ import React from 'react';
 const HomeText = ({ }) =>
     <div id="whole">
         <div id="hometext">
-            GreenLife will calcculate your daily carbon footprint based onyour food, transportation and clothing
+            GreenLife will calculate your daily carbon footprint based onyour food, transportation and clothing
         </div>
     </div>;
 
