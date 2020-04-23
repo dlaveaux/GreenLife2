@@ -5,7 +5,7 @@ import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
 import Question3 from '../comps/Question3';
 import Header from '../comps/Header';
-import Button from '../comps/Button';
+import Button from '../comps/Button';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 import './qpages.css';
 
 
@@ -47,11 +47,6 @@ export const QuestionComp3 = () =>
             text2="Bus"
             text3="Car" />
     </div>
-
-
-
-
-
 
 export const HomePage = () =>
     <div id="homeapp">
