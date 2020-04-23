@@ -14,5 +14,4 @@ const Analysis = ({}) => <div>
     </ul>
 </div>
 
-
 export default Analysis;
