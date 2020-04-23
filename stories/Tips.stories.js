@@ -16,7 +16,7 @@ const resultdata = {
   badText:
     "There’s still room for improvement - but don’t worry - You are now much more aware about sustainability than you were before and we have some tips to help you out",
   bestText:
-    "You are a sustainable superstar!   Looks like you already know the benefits of a sustainable lifestyle.  We have included some tips on how you can best  spread your knowledge to those around you!",
+    "You are a sustainable superstar! Looks like you already know the benefits of a sustainable lifestyle. We have included some tips on how you can best spread your knowledge to those around you!",
   goodImage: Happy,
   badImage: Sad,
   bestImage: Best,
