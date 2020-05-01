@@ -1,5 +1,5 @@
 import React from 'react';
-import './question.css';
+import './question1.css';
 import './questioncolor1.css';
 // import pic1 from '../../Images/pic1.png';
 // import pic2 from '../../Images/pic2.png';
@@ -12,16 +12,16 @@ const pic3 = require('./pic3.png')
 const Question1 = ({question, text1, text2, text3, }) =>
     <div id="whole">
         <div id="questiontext">{question}</div>
-        <div id="picid">
-            <div class="iconback1 first" >
+        <div id="picid1">
+            <div class="iconback first" >
                 <img src={pic1} />
                 <div class="text">{text1}</div>
             </div>
-            <div class="iconback1 second">
+            <div class="iconback second">
                 <img src={pic2} />
                 <div class="text">{text2}</div>
             </div>
-            <div class="iconback1 third">
+            <div class="iconback third">
                 <img src={pic3} />
                 <div class="text">{text3}</div>
             </div>
