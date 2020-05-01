@@ -28,9 +28,9 @@ export const QuestionPages1st = () =>
         {/* <Header /> */}
         <Question1
             question="What are you wearing today?"
-            text1="Recycled"
-            text2="Wool/Cotton"
-            text3="Polyester/Plastic" />
+            text1="1. Recycled"
+            text2="2. Cotton"
+            text3="3. Polyester" />
         {/* <Button /> */}
     </div>
 
@@ -39,9 +39,9 @@ export const QuestionPages2nd = () =>
         {/* <Header /> */}
         <Question2
             question="What did you eat today?"
-            text1="Homemade"
-            text2="Restaurant"
-            text3="Fastfood" />
+            text1="1. Homemade"
+            text2="2. Restaurant"
+            text3="3. Fastfood" />
         {/* <Button /> */}
     </div>
 
@@ -50,9 +50,9 @@ export const QuestionPages3rd = () =>
         {/* <Header /> */}
         <Question3
             question="What did you eat today?"
-            text1="Homemade"
-            text2="Restaurant"
-            text3="Fastfood" />
+            text1="1. Bicycle"
+            text2="2. Bus"
+            text3="3. Car" />
         {/* <Button /> */}
     </div>
 

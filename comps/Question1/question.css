@@ -1,36 +1,17 @@
-#picid{
-    /* background-color: teal; */
-    /* width: 360px; */
-    /* display: flex;
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center; */
 }
-#picid .iconback {
+#picid .iconback1 {
      border-radius: 10px;
      padding: 0 0 0px 0;
     width: 100px;
     height: 90px;
     cursor: pointer;
 }
-#picid .first {
-    background-color: rgb(249, 252, 59);
-}
-#picid .second {
-    background-color: rgb(252, 175, 59);
-}
-#picid .third {
-    background-color: rgb(252, 120, 59);
-}
-#picid .first:hover {
-    background-color: rgb(215, 218, 45);
-}
-#picid .second:hover {
-    background-color: rgb(214, 143, 37);
-}
-#picid .third:hover {
-    background-color: rgb(216, 97, 41);
-}
-
 #picid > div{
     width: 50px;
     height: 50px;
@@ -46,13 +27,6 @@
 }
 .text{
     font-size: 17px;
-}
-#whole{
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 #questiontext{
     height: 50px;

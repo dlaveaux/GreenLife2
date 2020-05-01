@@ -25,10 +25,10 @@ const Question3 = ({question, text1, text2, text3}) =>
     </div>;
 
 Question3.defaultProps = {
-    question: "What are you wearing today?",
-    text1: "Recycled",
-    text2: "Wool/Cotton",
-    text3: "Polyester/Plastic"
+    // question: "What are you wearing today?",
+    // text1: "Recycled",
+    // text2: "Wool/Cotton",
+    // text3: "Polyester/Plastic"
 }
 
 export default Question3;
