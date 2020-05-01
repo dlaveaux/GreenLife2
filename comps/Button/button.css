@@ -1,16 +1,17 @@
-#button{
+#buttoncomp{
     height: 50px;
     background-color:rgb(79, 207, 19);
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* font-weight: bold; */
     font-size: 25px;
     cursor: pointer;
     color: rgb(39, 39, 39);
     /* position: relative;
     top: 100px; */
+    margin: 20px;
+    
 }
 #button:hover {
     background-color:rgb(46, 173, 57);
