@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../comps/Header';
 import Home from '../comps/Home';
 import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
@@ -12,6 +13,10 @@ export default {
     component: Home,
 }
 
+export const Headerr = () =>
+    <div>
+        <Header />
+    </div>
 
 export const Homelogo = () =>
     <div>

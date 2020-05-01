@@ -4,7 +4,7 @@ import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
 import Question3 from '../comps/Question3';
-// import Header from '../comps/header';
+import Header from '../comps/Header';
 // import Button from '../comps/button';
 import './qpages.css';
 
@@ -17,7 +17,7 @@ export default {
 
 export const HomePage = () =>
     <div id="homeapp">
-        {/* <Header/> */}
+        <Header/>
         <Home />
         <HomeText/>
         {/* <Button /> */}
@@ -25,7 +25,7 @@ export const HomePage = () =>
 
 export const QuestionPages1st = () =>
     <div id="app">
-        {/* <Header /> */}
+        <Header />
         <Question1
             question="What are you wearing today?"
             text1="1. Recycled"
@@ -36,7 +36,7 @@ export const QuestionPages1st = () =>
 
 export const QuestionPages2nd = () =>
     <div id="app">
-        {/* <Header /> */}
+        <Header />
         <Question2
             question="What did you eat today?"
             text1="1. Homemade"
@@ -47,7 +47,7 @@ export const QuestionPages2nd = () =>
 
 export const QuestionPages3rd = () =>
     <div id="app">
-        {/* <Header /> */}
+        <Header />
         <Question3
             question="What did you eat today?"
             text1="1. Bicycle"

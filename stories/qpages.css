@@ -4,7 +4,7 @@
     background-color: rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 #homeapp{
@@ -13,14 +13,14 @@
     background-color: rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
-Header{
+/* Header{
     position: relative;
-    top: -175px;
-}
+    top: 0px;
+} */
 Button{
     position: relative;
     bottom: -130px;
