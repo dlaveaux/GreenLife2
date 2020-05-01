@@ -56,11 +56,7 @@ export const QuestionPages2nd = () =>
 export const QuestionPages3rd = () =>
     <div id="app">
         <Header />
-        <Question3
-            question="Q3. What did you eat today?"
-            text1="1. Bicycle"
-            text2="2. Bus"
-            text3="3. Car" />
+        <Question3/>
         <div class="questionbutton">
             <Button
                 width="200px"
