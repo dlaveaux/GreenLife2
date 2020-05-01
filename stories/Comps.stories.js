@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../comps/Header';
 import Home from '../comps/Home';
+import Button from '../comps/Button';
 import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
@@ -50,4 +51,9 @@ export const QuestionComp3 = () =>
             text2="Bus"
             text3="Car" />
     </div>
+
+export const Buttonn = () =>
+<div>
+    <Button />
+</div>
 
