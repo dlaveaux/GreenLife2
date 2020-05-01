@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../comps/Home';
+import Homelogo from '../comps/Homelogo';
 import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
@@ -11,15 +11,15 @@ import './qpages.css';
 
 export default {
     title: 'Pages',
-    component: Home,
+    component: Homelogo,
 }
 
 export const HomePage = () =>
     <div id="homeapp">
         <Header/>
-        <Home />
-        <HomeText/>
-        <Button />
+        <Homelogo id="page_homelogo"/>
+        <HomeText id="page_hometext"/>
+        <Button id="page_button"/>
     </div>
 
 export const QuestionPages1st = () =>

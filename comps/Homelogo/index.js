@@ -1,8 +1,8 @@
 import React from 'react';
-import './home.css';
+import './homelogo.css';
 
 
-const Home = ({ }) =>
+const Homelogo = ({ }) =>
     <div id="whole">
         <div id="homelogoid"></div>
     </div>;
@@ -11,5 +11,5 @@ const Home = ({ }) =>
 
 // }
 
-export default Home;
+export default Homelogo;
 

@@ -9,8 +9,8 @@
     font-size: 25px;
     cursor: pointer;
     color: rgb(39, 39, 39);
-    position: relative;
-    top: 100px;
+    /* position: relative;
+    top: 100px; */
 }
 #button:hover {
     background-color:rgb(46, 173, 57);
