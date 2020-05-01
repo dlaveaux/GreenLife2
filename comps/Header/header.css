@@ -1,0 +1,15 @@
+#header{
+    width: 360px;
+    height: 80px;
+    background-color: rgb(79, 207, 19);
+    /* background-color: #0DC309; */
+    display: flex;
+    align-items: center;
+}
+#headerlogo{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 120px;
+    height: 60px;
+   
+}

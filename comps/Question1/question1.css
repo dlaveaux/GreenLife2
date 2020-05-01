@@ -1,0 +1,36 @@
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+#picid1 .iconback {
+     border-radius: 10px;
+     padding: 0 0 0px 0;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+}
+#picid1 > div{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid1 img{
+    width: 50px;
+    height: auto;
+}
+.text{
+    font-size: 17px;
+}
+#questiontext{
+    height: 50px;
+    font-size: 20px;
+}
