@@ -1,5 +1,7 @@
 import React from 'react';
 // import '../Question1/question1.css';
+import '../Question1/question.css';
+import './questioncolor2.css';
 
 const pic1 = require('./pic4.png')
 const pic2 = require('./pic5.png')

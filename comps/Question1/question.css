@@ -1,10 +1,16 @@
-#picid{
-    background-color: yellow;
+#whole{
     width: 360px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    border-radius: 20px;
+    align-items: center;
+}
+#picid .iconback1 {
+     border-radius: 10px;
+     padding: 0 0 0px 0;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
 }
 #picid > div{
     width: 50px;
@@ -20,14 +26,7 @@
     height: auto;
 }
 .text{
-    font-size: 13px;
-}
-#whole{
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-size: 17px;
 }
 #questiontext{
     height: 50px;

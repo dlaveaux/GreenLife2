@@ -4,8 +4,6 @@ import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
 import Question3 from '../comps/Question3';
-import Header from '../comps/header';
-import Button from '../comps/button';
 import './qpages.css';
 
 
