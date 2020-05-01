@@ -10,10 +10,21 @@
 #homeapp{
     width: 360px;
     height: 710px;
-    background-color: rgb(250, 250, 250);
+    /* background-color: rgb(250, 250, 250); */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
 }
-
+#hometext{
+    position: relative;
+    top: 100px;
+}
+#button{
+    position: relative;
+    top: 330px;
+}
+#page_homelogo{
+    position: relative;
+    top: 330px;
+}
