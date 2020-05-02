@@ -7,7 +7,7 @@ const pic1 = require('./pic7.png')
 const pic2 = require('./pic8.png')
 const pic3 = require('./pic9.png')
 
-const Question3 = ({question, text1, text2, text3}) =>
+const Question3 = ({ question, text1, text2, text3 }) =>
     <div id="whole">
         <div id="questiontext">{question}</div>
         <div id="picid3">
@@ -27,10 +27,10 @@ const Question3 = ({question, text1, text2, text3}) =>
     </div>;
 
 Question3.defaultProps = {
-    // question: "What are you wearing today?",
-    // text1: "Recycled",
-    // text2: "Wool/Cotton",
-    // text3: "Polyester/Plastic"
+    question:"Q3. What did you transport today?",
+    text1:"1. Bicycle",
+    text2:"2. Bus",
+    text3:"3. Car"
 }
 
 export default Question3;

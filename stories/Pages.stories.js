@@ -16,10 +16,15 @@ export default {
 
 export const HomePage = () =>
     <div id="homeapp">
-        <Header/>
-        <Homelogo id="page_homelogo"/>
-        <HomeText id="page_hometext"/>
-        <Button id="page_button"/>
+        <Header />
+        <Homelogo />
+        <HomeText />
+        
+        <div class="homebutton">
+            <Button 
+            width="220px"
+            text="Let's start" />
+        </div>
     </div>
 
 export const QuestionPages1st = () =>
@@ -30,7 +35,9 @@ export const QuestionPages1st = () =>
             text1="1. Recycled"
             text2="2. Cotton"
             text3="3. Polyester" />
-        <Button />
+        <div class="questionbutton">
+            <Button />
+        </div>
     </div>
 
 export const QuestionPages2nd = () =>
@@ -41,19 +48,20 @@ export const QuestionPages2nd = () =>
             text1="1. Homemade"
             text2="2. Restaurant"
             text3="3. Fastfood" />
-        <Button />
+        <div class="questionbutton">
+            <Button />
+        </div>
     </div>
 
 export const QuestionPages3rd = () =>
     <div id="app">
         <Header />
-        <Question3
-            question="Q3. What did you eat today?"
-            text1="1. Bicycle"
-            text2="2. Bus"
-            text3="3. Car" />
-        <Button 
-            width="200px"
-            text="View Result"/>
+        <Question3/>
+        <div class="questionbutton">
+            <Button
+                width="200px"
+                text="View Result" />
+        </div>
+
     </div>
 
