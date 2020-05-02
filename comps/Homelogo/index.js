@@ -2,14 +2,14 @@ import React from 'react';
 import './homelogo.css';
 
 
-const Homelogo = ({ }) =>
+const HomeLogo = ({ }) =>
     <div id="whole">
-        <div id="homelogoid"></div>
+        <div id="homeimage"></div>
     </div>;
 
 // Home.defaultProps = {
 
 // }
 
-export default Homelogo;
+export default HomeLogo;
 

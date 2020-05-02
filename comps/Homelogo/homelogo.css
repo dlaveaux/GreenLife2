@@ -1,6 +1,7 @@
-#homelogoid{
+#homeimage{
     background-image: url(logo.png);
     width: 100px;
+    height: 100px;
     background-size: contain;
     position: relative;;
     top: 80px;

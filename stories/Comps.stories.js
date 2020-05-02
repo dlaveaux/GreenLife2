@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../comps/Header';
-import Home from '../comps/Home';
+import HomeLogo from '../comps/HomeLogo';
 import Button from '../comps/Button';
 import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
@@ -12,7 +12,7 @@ import './qpages.css';
 
 export default {
     title: 'Comps',
-    component: Home,
+    component: null,
 }
 
 export const Headerr = () =>
@@ -20,9 +20,9 @@ export const Headerr = () =>
         <Header />
     </div>
 
-export const Homelogo = () =>
+export const HomeLogoo = () =>
     <div>
-        <Home />
+        <HomeLogo />
     </div>
 
 export const HomeTextt = () =>
@@ -62,5 +62,3 @@ export const ResultTitlee = () =>
 <div>
     <ResultTitle />
 </div>
-
-

@@ -10,6 +10,8 @@
 #hometext{
     position: relative;
     top: 100px;
+    width: 250px;
+    text-align: center;
 }
 #app{
     max-width: 360px;
