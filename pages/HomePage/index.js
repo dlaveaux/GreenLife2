@@ -5,8 +5,6 @@ import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import './page1.css';
 
-
-    
 const HomePage = ({}) =>
 <div id="homeapp">
         <Header />

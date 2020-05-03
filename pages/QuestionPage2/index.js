@@ -4,7 +4,7 @@ import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import '../HomePage/page1.css';
 
-export const QuestionPage2 = () =>
+const QuestionPage2 = ({}) =>
     <div id="app">
         <Header />
         <Question2
