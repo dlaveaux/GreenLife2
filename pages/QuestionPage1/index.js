@@ -2,8 +2,6 @@ import React from 'react';
 import Question1 from '../../comps/Question1';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
-// import ResultTitle from '../comps/ResultTitle';
-// import ResultImage from '../comps/ResultImage';
 import '../HomePage/page1.css';
 
 export const QuestionPage1 = () =>
@@ -18,17 +16,5 @@ export const QuestionPage1 = () =>
             <Button />
         </div>
     </div>
-
-// export const ResultPage = () =>
-//     <div id="app">
-//         <Header />
-//         <ResultTitle/>
-//         <ResultImage/>
-//         <div class="resultbutton">
-//             <Button
-//                 width="190px"
-//                 text="Check Tips" />
-//         </div>
-//    </div>
 
 export default QuestionPage1;
