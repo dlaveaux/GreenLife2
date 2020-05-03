@@ -2,14 +2,14 @@ import React from 'react';
 import './resulttitle.css';
 
 
-const ResultTitle = ({ }) =>
+const ResultTitle = ({text}) =>
     <div id="resulttitle">
-        Based on your results..
+        {text}
     </div>;
 
-// ResultTitle.defaultProps = {
-
-// }
+ResultTitle.defaultProps = {
+    text: "Based on your results.."
+}
 
 export default ResultTitle;
 

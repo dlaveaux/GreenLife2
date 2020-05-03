@@ -1,0 +1,29 @@
+.tipsicons img{
+    width: 60px;
+    margin: 0px 30px 0px -30px;
+}
+.tipsicons{
+    width: 70px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tipsicons:hover{
+    color:rgb(18, 143, 91);
+    font-size: 23px;
+    cursor: pointer;;
+}
+#tipborder{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}

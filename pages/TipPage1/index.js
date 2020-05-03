@@ -3,17 +3,22 @@ import React from 'react';
 // import HomeText from '../../comps/HomeText';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
+import ResultTitle from '../../comps/ResultTitle';
 import TipsIcons from '../../comps/TipIcons';
-// import './page1.css';
+import '../HomePage/page1.css';
 
 const TipPage1 = ({ }) =>
-    <div id="homeapp">
+    <div id="tipapp">
         <Header />
+        <div id="tiptitle">
+        <ResultTitle
+          text="Tips!"/>
+          </div>
         <TipsIcons/>
-        <div class="homebutton">
+        <div class="tipbutton">
             <Button
                 width="220px"
-                text="??" />
+                text="< Back" />
         </div>
     </div>
     
