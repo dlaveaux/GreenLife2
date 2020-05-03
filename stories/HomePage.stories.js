@@ -1,0 +1,14 @@
+import React from 'react';
+import HomePage from '../pages/HomePage';
+
+
+
+
+export default {
+    title: 'HomePage',
+}
+
+export const HomePagee = () =>
+    <div>
+        <HomePage />
+    </div>

@@ -7,6 +7,7 @@ import Question3 from '../comps/Question3';
 import Header from '../comps/Header';
 import Button from '../comps/Button';
 import ResultTitle from '../comps/ResultTitle';
+import ResultImage from '../comps/ResultImage';
 import './qpages.css';
 
 
@@ -65,14 +66,14 @@ export const QuestionPages3rd = () =>
         </div>
         </div>
 
-export const ResultTitlee = () =>
+export const ResultPage = () =>
     <div id="app">
         <Header />
         <ResultTitle/>
+        <ResultImage/>
         <div class="resultbutton">
             <Button
-                width="200px"
-                text="View Result" />
+                width="190px"
+                text="Check Tips" />
         </div>
    </div>
-

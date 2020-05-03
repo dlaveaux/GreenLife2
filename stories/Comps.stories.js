@@ -7,6 +7,7 @@ import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
 import Question3 from '../comps/Question3';
 import ResultTitle from '../comps/ResultTitle';
+import ResultImage from '../comps/ResultImage';
 import './qpages.css';
 
 
@@ -61,4 +62,9 @@ export const Buttonn = () =>
 export const ResultTitlee = () =>
 <div>
     <ResultTitle />
+</div>
+
+export const ResultImagee = () =>
+<div>
+    <ResultImage />
 </div>
