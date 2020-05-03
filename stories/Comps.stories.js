@@ -9,6 +9,8 @@ import Question3 from '../comps/Question3';
 import ResultTitle from '../comps/ResultTitle';
 import ResultImage from '../comps/ResultImage';
 import './qpages.css';
+import ResultExplanation from '../comps/ResultExplanation';
+import TipsIcons from '../comps/TipIcons';
 
 
 export default {
@@ -67,4 +69,14 @@ export const ResultTitlee = () =>
 export const ResultImagee = () =>
 <div>
     <ResultImage />
+</div>
+
+export const ResultExplanationn = () =>
+<div>
+    <ResultExplanation />
+</div>
+
+export const TipsIconss = () =>
+<div>
+    <TipsIcons />
 </div>
