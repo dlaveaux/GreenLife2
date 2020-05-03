@@ -1,7 +1,7 @@
 import React from 'react';
 import './resultimage.css';
 
-const defaultProfPic= require('./face3.png');
+const defaultProfPic= require('./face1.png');
 
 const ResultImage = ({profpic}) =>
     <div id="resultimage"><img src={profpic} />

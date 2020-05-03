@@ -6,15 +6,16 @@ import ResultImage from '../../comps/ResultImage';
 import ResultExplanation from '../../comps/ResultExplanation';
 import '../HomePage/page1.css';
 
-const picToShow = require('../../comps/ResultImage/face1.png')
+const picToShow = require('../../comps/ResultImage/face2.png')
 
-const ResultPage = ({profpic}) =>
+const ResultPage2 = ({profpic}) =>
     <div id="app">
         <Header />
         <ResultTitle />
-        <ResultImage />
+        <ResultImage 
+        profpic={picToShow}/>
         <ResultExplanation
-            text="Sorry, you contribute to the creation of environmental pollutants. - but don't worry. We have some tips to improve. Let's check tips to improve. "/>
+            text="Good, you are on the right track but there's still room for improvement. We have some tips to help you out! "/>
     <div class="resultbutton">
             <Button
                 width="190px"
@@ -22,4 +23,4 @@ const ResultPage = ({profpic}) =>
         </div>
     </div>
 
-export default ResultPage;
+export default ResultPage2;
