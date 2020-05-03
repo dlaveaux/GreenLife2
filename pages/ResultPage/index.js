@@ -8,14 +8,17 @@ import '../HomePage/page1.css';
 
 const picToShow = require('../../comps/ResultImage/face1.png')
 
-const ResultPage = ({profpic}) =>
+const ResultPage = ({ profpic }) =>
     <div id="app">
         <Header />
         <ResultTitle />
         <ResultImage />
-        <ResultExplanation
-            text="Sorry, you contribute to the creation of environmental pollutants. - but don't worry. We have some tips to improve. Let's check tips to improve. "/>
-    <div class="resultbutton">
+        <div class="resultbox">
+            <ResultExplanation
+                text="Sorry, you contribute to the creation of environmental pollutants. - 
+            but don't worry. We have some tips to improve. Check tips to improve! "/>
+        </div>
+        <div class="resultbutton">
             <Button
                 width="190px"
                 text="Check Tips" />

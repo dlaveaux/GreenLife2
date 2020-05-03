@@ -14,8 +14,10 @@ const ResultPage2 = ({profpic}) =>
         <ResultTitle />
         <ResultImage 
         profpic={picToShow}/>
+        <div class="resultbox second">
         <ResultExplanation
-            text="Good, you are on the right track but there's still room for improvement. We have some tips to help you out! "/>
+            text="Wow, you are on the right track but there's still room for improvement. We have some tips to help you out! "/>
+        </div>
     <div class="resultbutton">
             <Button
                 width="190px"
