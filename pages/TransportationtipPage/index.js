@@ -2,12 +2,12 @@ import React from 'react';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import '../HomePage/page1.css';
-import FoodTip from '../../comps/FoodTip';
+import TransportationTip from '../../comps/TransportationTip';
 
-const TipPage1 = ({ }) =>
+const TransportationtipPage = ({ }) =>
     <div id="tipapp">
         <Header />
-        <FoodTip/>
+        <TransportationTip/>
         <div class="tipbutton">
             <Button
                 width="220px"
@@ -15,4 +15,4 @@ const TipPage1 = ({ }) =>
         </div>
     </div>
     
-export default TipPage1;
+export default TransportationtipPage;

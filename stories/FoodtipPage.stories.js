@@ -2,10 +2,10 @@ import React from 'react';
 import FoodtipPage from '../pages/FoodtipPage';
 
 export default {
-    title: 'FoodtipPage',
+    title: 'FoodtipPage1',
 }
 
-export const FoodtipPagee = () =>
+export const FoodtipPage1 = () =>
     <div>
         <FoodtipPage />
     </div>
