@@ -7,7 +7,7 @@ import ResultTitle from '../../comps/ResultTitle';
 import TipsIcons from '../../comps/TipIcons';
 import '../HomePage/page1.css';
 
-const TipPage1 = ({ }) =>
+const TipPage = ({ }) =>
     <div id="tipapp">
         <Header />
         <div id="tiptitle">
@@ -22,4 +22,4 @@ const TipPage1 = ({ }) =>
         </div>
     </div>
     
-export default TipPage1;
+export default TipPage;

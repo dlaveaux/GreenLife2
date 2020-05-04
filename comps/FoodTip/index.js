@@ -23,11 +23,11 @@ const FoodTip = ({text1, text2, text3, text4, text5, color}) =>
 
 FoodTip.defaultProps = {
     color: "gold",
-    text1: "☀️Saves money",
-    text2: "☀️Is Healty",
-    text3: "☀️Is Sustainable",
-    text4: "☀️Is good for the planet",
-    text5: "☀️Improves your cooking"
+    text1: "🧀Saves money",
+    text2: "🧀Is Healty",
+    text3: "🧀Is Sustainable",
+    text4: "🧀Is good for the planet",
+    text5: "🧀Improves your cooking"
 }
 
 export default FoodTip;

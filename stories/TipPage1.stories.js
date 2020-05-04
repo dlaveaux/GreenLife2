@@ -1,11 +1,11 @@
 import React from 'react';
-import TipPage1 from '../pages/TipPage1';
+import TipPage from '../pages/TipPage';
 
 export default {
-    title: 'TipPage1',
+    title: 'TipPage',
 }
 
-export const TipPage01 = () =>
+export const TipPagee = () =>
     <div>
-        <TipPage1 />
+        <TipPage />
     </div>
