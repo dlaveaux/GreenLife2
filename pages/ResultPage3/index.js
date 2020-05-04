@@ -19,11 +19,9 @@ const ResultPage3 = ({ profpic }) =>
                 text="You are a sustainable superstar! Looks like you already know the benefits of a sustainable lifestyle. 
             We have some tips on how you can best spread your knowledge to those around you!"/>
         </div>
-        <div class="resultbutton">
             <Button
                 width="190px"
                 text="Check Tips" />
-        </div>
     </div>
 
 export default ResultPage3;

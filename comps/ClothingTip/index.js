@@ -23,9 +23,9 @@ const ClothingTip = ({text1, text2, text3, text4, text5, color}) =>
 
 ClothingTip.defaultProps = {
     color: "paleturquoise",
-    text1: "☀️Less dependence on imported raw materials",
-    text2: "☀️Helps promote jobs and industries that are ecofriendly",
-    text3: "☀️Quality of clothing is usually better",
+    text1: "💧Less dependence on imported raw materials",
+    text2: "💧Helps promote jobs and industries that are ecofriendly",
+    text3: "💧Quality of clothing is usually better",
     // text4: "Is good for the planet",
     // text5: "Improves your cooking"
 }

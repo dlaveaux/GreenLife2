@@ -18,11 +18,9 @@ const ResultPage = ({ profpic }) =>
                 text="Sorry, you contribute to the creation of environmental pollutants. - 
             but don't worry. We have some tips to improve. Check tips to improve! "/>
         </div>
-        <div class="resultbutton">
             <Button
                 width="190px"
                 text="Check Tips" />
-        </div>
     </div>
 
 export default ResultPage;

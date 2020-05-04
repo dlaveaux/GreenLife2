@@ -5,7 +5,7 @@ export default {
     title: 'TransportationtipPage1',
 }
 
-export const TransportationtipPagee = () =>
+export const TransportationtipPage1 = () =>
     <div>
         <TransportationtipPage />
     </div>

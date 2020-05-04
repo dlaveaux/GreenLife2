@@ -21,9 +21,9 @@ const TransportationTip = ({text1, text2, text3, text4, text5, color}) =>
 
 TransportationTip.defaultProps = {
     color: "#rgb(129, 248, 198)",
-    text1: "☀️Saves gas money",
-    text2: "☀️Less pollution is healthy",
-    text3: "☀️Decreases stress",
+    text1: "🌿Saves gas money",
+    text2: "🌿Less pollution is healthy",
+    text3: "🌿Decreases stress",
     // text4: "Is good for the planet",
     // text5: "Improves your cooking"
 }
