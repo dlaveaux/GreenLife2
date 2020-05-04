@@ -7,9 +7,9 @@ const pic3= require('./car.png');
 
 const TipsIcons = ({}) =>
 <div id="tipborder">
-    <div class="tipsicons one"><img src={pic1}/>Food</div>
-    <div class="tipsicons two"><img src={pic2}/>Clothing</div>
-    <div class="tipsicons three"><img src={pic3}/>Transportation</div>
+    <div class="tipsicons"><img src={pic1}/>Food</div>
+    <div class="tipsicons"><img src={pic2}/>Clothing</div>
+    <div class="tipsicons"><img src={pic3}/>Transportation</div>
 </div>;
 
 // TipsIcons.defaultProps = {

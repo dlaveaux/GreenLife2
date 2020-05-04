@@ -11,6 +11,9 @@ import ResultImage from '../comps/ResultImage';
 import './qpages.css';
 import ResultExplanation from '../comps/ResultExplanation';
 import TipsIcons from '../comps/TipIcons';
+import FoodTip from '../comps/FoodTip';
+
+
 
 
 export default {
@@ -80,3 +83,9 @@ export const TipsIconss = () =>
 <div>
     <TipsIcons />
 </div>
+
+export const FoodTipp = () =>
+<div>
+    <FoodTip />
+</div>
+
