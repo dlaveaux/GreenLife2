@@ -12,7 +12,7 @@ import './qpages.css';
 import ResultExplanation from '../comps/ResultExplanation';
 import TipsIcons from '../comps/TipIcons';
 import FoodTip from '../comps/FoodTip';
-
+import ClothingTip from '../comps/ClothingTip';
 
 
 
@@ -87,5 +87,10 @@ export const TipsIconss = () =>
 export const FoodTipp = () =>
 <div>
     <FoodTip />
+</div>
+
+export const ClothingTipp = () =>
+<div>
+    <ClothingTip />
 </div>
 

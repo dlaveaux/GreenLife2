@@ -12,7 +12,7 @@ const TipPage1 = ({ }) =>
         <Header />
         <div id="tiptitle">
         <ResultTitle
-          text="Tips!"/>
+          text="Choose Tips!"/>
           </div>
         <TipsIcons/>
         <div class="tipbutton">
