@@ -1,10 +1,10 @@
 import React from 'react';
 import '../FoodTip/foodtip.css';
 
-const pic3= require('../TipIcons/car.png');
+const pic3= require('../TipIcons1/car.png');
 
 const TransportationTip = ({text1, text2, text3, text4, text5, color}) =>
-<div id="tipborder">
+<div id="tipbordereee">
     <div id="tipimagearea" style={{backgroundColor:color}}>
         <img src={pic3}/>
         <span id="tiptitle">Walking/Biking to work..</span>

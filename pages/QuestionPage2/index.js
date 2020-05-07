@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Question2 from '../../comps/Question2';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
@@ -12,9 +13,11 @@ const QuestionPage2 = ({}) =>
             text1="1. Homemade"
             text2="2. Restaurant"
             text3="3. Fastfood" />
+        <Link href="/QuestionPage3">
         <div class="questionbutton">
             <Button />
         </div>
+        </Link>
     </div>
 
 export default QuestionPage2;

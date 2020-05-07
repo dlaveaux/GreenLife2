@@ -1,0 +1,168 @@
+#homeimage{
+    /* background-image: url(logo.png); */
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: relative;;
+    top: 80px;
+    background-color: rgb(197, 252, 172);
+}
+
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+#picid1 .iconback {
+     border-radius: 10px;
+     padding: 0 0 0px 0;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+}
+#picid1 > div{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid1 img{
+    width: 50px;
+    height: auto;
+}
+.text{
+    font-size: 17px;
+}
+#questiontext{
+    height: 50px;
+    font-size: 20px;
+}
+
+#picid1 .first {
+    background-color: rgb(252, 223, 59);
+}
+#picid1 .second {
+    background-color: rgb(252, 175, 59);
+}
+#picid1 .third {
+    background-color: rgb(252, 130, 59);
+}
+#picid1 .first:hover {
+    background-color: rgb(224, 197, 43);
+}
+#picid1 .second:hover {
+    background-color: rgb(207, 138, 34);
+}
+#picid1 .third:hover {
+    background-color: rgb(216, 97, 41);
+}
+#header{
+    width: 360px;
+    height: 80px;
+    background-color: rgb(79, 207, 19);
+    display: flex;
+    align-items: center;
+}
+/* #headerlogo img{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+} */
+#headerlogo #logoimg{
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    
+}
+
+#buttoncomp{
+    height: 50px;
+    background-color:rgb(79, 207, 19);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(39, 39, 39);
+    margin: 20px;
+}
+#buttoncomp:hover {
+    background-color:rgb(46, 173, 57);
+    /* color: white; */
+}
+
+#homeapp{
+    width: 360px;
+    height: 710px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hometext{
+    position: relative;
+    top: 100px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+}
+#app{
+    max-width: 360px;
+    height: 710px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tipapp{
+    max-width: 360px;
+    height: 710px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.questionbutton{
+    position: relative;
+    top: 80px;
+}
+.homebutton{
+    position: relative;
+    top: 230px;
+}
+.tipbutton{
+    position: relative;
+    bottom: 50px;
+}
+#tiptitle{
+    margin: -50px 0px;
+}
+.resultbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 30px;
+}
+.second{
+    height: 120px;
+}
+.third{
+    height: 180px;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/
