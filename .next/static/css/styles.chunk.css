@@ -1,11 +1,11 @@
-#homeimage{
+#homelogoimage{
     /* background-image: url(logo.png); */
     width: 100px;
     height: 100px;
     background-size: contain;
     position: relative;;
     top: 80px;
-    background-color: rgb(197, 252, 172);
+    /* background-color: rgb(197, 252, 172); */
 }
 
 #whole{
@@ -70,19 +70,13 @@
     display: flex;
     align-items: center;
 }
-/* #headerlogo img{
-    background-image: url(logo.png);
+#logoimg{
     background-size: cover;
     width: 100px;
     height: 50px;
     margin-left: 10px;
-} */
-#headerlogo #logoimg{
-    width: 100px;
-    height: 50px;
-    background-size: contain;
-    
 }
+
 
 #buttoncomp{
     height: 50px;
