@@ -4927,7 +4927,7 @@ var QuestionPage1 = function QuestionPage1(_ref) {
 
 /***/ }),
 
-/***/ 11:
+/***/ 8:
 /*!*********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FQuestionPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife2%2Fpages%2FQuestionPage1%2Findex.js ***!
   \*********************************************************************************************************************************************/
@@ -4950,5 +4950,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=QuestionPage1.js.map

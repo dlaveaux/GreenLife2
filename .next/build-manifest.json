@@ -8,13 +8,13 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/HomePage": [
+    "/QuestionPage1": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/QuestionPage1": [
+    "/QuestionPage2": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
