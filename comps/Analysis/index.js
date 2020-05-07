@@ -3,7 +3,7 @@ import './analysis.css';
 
 const graphImage = require('./graph.png');
 
-const Analysis = ({}) => <div>
+const Analysis = ({}) => <div className="analysispage">
     <div>
         <img className="graph" src={graphImage} />
     </div>
