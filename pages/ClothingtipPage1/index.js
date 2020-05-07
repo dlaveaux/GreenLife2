@@ -5,7 +5,7 @@ import Button from '../../comps/Button';
 import '../HomePage/page1.css';
 import ClothingTip from '../../comps/ClothingTip';
 
-const ClothingtipPage = ({ }) =>
+const ClothingtipPage1 = ({ }) =>
     <div id="tipapp">
         <Header />
         <ClothingTip/>
@@ -18,4 +18,4 @@ const ClothingtipPage = ({ }) =>
         </Link>
     </div>
     
-export default ClothingtipPage;
+export default ClothingtipPage1;
