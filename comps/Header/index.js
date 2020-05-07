@@ -3,7 +3,7 @@ import './header.css';
 
 const logopic = require('./logo.png')
 
-const Header = ({logopic}) =>
+const Header = ({}) =>
     <div id="header">
         <div id="headerlogo">
             <img id="logoimg" src={logopic}/>

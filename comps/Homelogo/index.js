@@ -1,11 +1,11 @@
 import React from 'react';
 import './homelogo.css';
 
-const homelogoimg = require('./homelogo.png');
+const homelogoimg = require('./homelogo.png')
 
-const HomeLogo = ({homelogoimg}) =>
+const HomeLogo = ({}) =>
     <div id="whole">
-        <div id="homeimage"><img id="homelogoimg" src={homelogoimg} /></div>
+        <div id="homeimage"><img id="homelogoimage" src={homelogoimg} /></div>
     </div>;
 
 // ResultImage.defaultProps = {

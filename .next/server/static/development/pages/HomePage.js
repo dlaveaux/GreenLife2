@@ -214,9 +214,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const logopic = __webpack_require__(/*! ./logo.png */ "./comps/Header/logo.png");
 
-const Header = ({
-  logopic
-}) => __jsx("div", {
+const Header = ({}) => __jsx("div", {
   id: "header",
   __self: undefined,
   __source: {
@@ -302,9 +300,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const homelogoimg = __webpack_require__(/*! ./homelogo.png */ "./comps/HomeLogo/homelogo.png");
 
-const HomeLogo = ({
-  homelogoimg
-}) => __jsx("div", {
+const HomeLogo = ({}) => __jsx("div", {
   id: "whole",
   __self: undefined,
   __source: {
@@ -321,7 +317,7 @@ const HomeLogo = ({
     columnNumber: 9
   }
 }, __jsx("img", {
-  id: "homelogoimg",
+  id: "homelogoimage",
   src: homelogoimg,
   __self: undefined,
   __source: {

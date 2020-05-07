@@ -214,9 +214,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const logopic = __webpack_require__(/*! ./logo.png */ "./comps/Header/logo.png");
 
-const Header = ({
-  logopic
-}) => __jsx("div", {
+const Header = ({}) => __jsx("div", {
   id: "header",
   __self: undefined,
   __source: {
