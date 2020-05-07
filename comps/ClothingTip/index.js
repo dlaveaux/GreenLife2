@@ -1,12 +1,12 @@
 import React from 'react';
 import '../FoodTip/foodtip.css';
 
-const pic2= require('../TipIcons/clothing.png');
+const pic2= require('../TipIcons1/clothing.png');
 // const pic2= require('./clothing.png');
 // const pic3= require('./car.png');
 
 const ClothingTip = ({text1, text2, text3, text4, text5, color}) =>
-<div id="tipborder">
+<div id="tipbordereee">
     <div id="tipimagearea" style={{backgroundColor:color}}>
         <img src={pic2}/>
         <span id="tiptitle">Buying sustainable clothing..</span>
@@ -23,9 +23,9 @@ const ClothingTip = ({text1, text2, text3, text4, text5, color}) =>
 
 ClothingTip.defaultProps = {
     color: "paleturquoise",
-    text1: "☀️Less dependence on imported raw materials",
-    text2: "☀️Helps promote jobs and industries that are ecofriendly",
-    text3: "☀️Quality of clothing is usually better",
+    text1: "💧Less dependence on imported raw materials",
+    text2: "💧Helps promote jobs and industries that are ecofriendly",
+    text3: "💧Quality of clothing is usually better",
     // text4: "Is good for the planet",
     // text5: "Improves your cooking"
 }

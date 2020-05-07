@@ -1,8 +1,9 @@
 #homeimage{
-    background-image: url(logo.png);
+    /* background-image: url(logo.png); */
     width: 100px;
     height: 100px;
     background-size: contain;
     position: relative;;
     top: 80px;
+    background-color: rgb(197, 252, 172);
 }

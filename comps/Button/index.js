@@ -16,7 +16,7 @@ function ButtonClick(){
 Button.defaultProps = {
     text:"Next",
     width:"150px",
-    onClick: ButtonClick
+    // onClick: ButtonClick
 }
 
 export default Button;

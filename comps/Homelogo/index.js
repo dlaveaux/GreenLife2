@@ -1,14 +1,15 @@
 import React from 'react';
 import './homelogo.css';
 
+const homelogoimg = require('./homelogo.png');
 
-const HomeLogo = ({ }) =>
+const HomeLogo = ({homelogoimg}) =>
     <div id="whole">
-        <div id="homeimage"></div>
+        <div id="homeimage"><img id="homelogoimg" src={homelogoimg} /></div>
     </div>;
 
-// Home.defaultProps = {
-
+// ResultImage.defaultProps = {
+//     profpic:defaultProfPic,
 // }
 
 export default HomeLogo;

@@ -18,11 +18,11 @@ const ResultPage2 = ({profpic}) =>
         <ResultExplanation
             text="Wow, you are on the right track but there's still room for improvement. We have some tips to help you out! "/>
         </div>
-    <div class="resultbutton">
+    
             <Button
                 width="190px"
                 text="Check Tips" />
-        </div>
+        
     </div>
 
 export default ResultPage2;

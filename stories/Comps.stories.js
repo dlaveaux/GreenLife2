@@ -13,6 +13,7 @@ import ResultExplanation from '../comps/ResultExplanation';
 import TipsIcons from '../comps/TipIcons';
 import FoodTip from '../comps/FoodTip';
 import ClothingTip from '../comps/ClothingTip';
+import TransportationTip from '../comps/TransportationTip';
 
 
 
@@ -94,3 +95,7 @@ export const ClothingTipp = () =>
     <ClothingTip />
 </div>
 
+export const TransportationTipp = () =>
+<div>
+    <TransportationTip />
+</div>
